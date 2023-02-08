@@ -1,7 +1,3 @@
-#for i in range(0,101,2):
-  #  print(i)
-
-
 #mylist1=["Sultan","Mohammed","Alhajri"]
 #mylist1.append("khaled") 
 #mylist1.remove("Mohammed")
@@ -16,4 +12,5 @@
 #mylist2=[{"name":"sultan","Phone":12},{"name":"Ahmed","Phone":3},{"name":"Feras","Phone":7}]
 #mylist2.append({"name":"Sara","Phone":9})
 #mylist2[0].pop("name")
+#mylist2[3]["Phone_Number"]= 14 
 #print(mylist2)

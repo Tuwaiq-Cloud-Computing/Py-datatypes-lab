@@ -22,15 +22,22 @@ ken=", ".join(people) #print the list in the following format: Ahmed, Nasser, Mo
 print(ken)
 
 print("-------Question 3-------")
-Kdict={"Kindah":"05123","Sara":"05555","Dema":"05666"}#Make a list of 3 dictionaries, each dictionary should contain information such as: name, phone_number
+Kdict=[
+    {"Name":"Kindah", "Phone Number":"05111"},
+    {"Name":"Sara", "Phone Number":"05222"},
+    {"Name":"Deema", "Phone Number":"05333"}
+ ] #Make a list of 3 dictionaries, each dictionary should contain information such as: name, phone_number
 print(Kdict)
-Kdict["Leen"]="05777" #now add 1 more dictionary to the list
+Kdict.append({"Name":"Leen","Phone Number":"05444"}) #now add 1 more dictionary to the list
 print(Kdict)
-del Kdict["Kindah"] #now delete the name from the first dictionary
+del Kdict[0]["Name"]#now delete the name from the first dictionary
 print(Kdict)
-Kdict.update({"Leen":"05888"})#update the phone number of the last person
+Kdict[-1]["Phone Number"]="05888" #update the phone number of the last person
 print(Kdict)
-print("name" in Kdict)#check if a first dictionary has a key called "name"
+if "Name" in Kdict[0]:
+    print("Exist")
+else:
+    print("The name dosen't exist")#check if a first dictionary has a key called "name"
 print("----------------------------------------------------------------------------")
 Question 1:
 - Make a list with 3 elements

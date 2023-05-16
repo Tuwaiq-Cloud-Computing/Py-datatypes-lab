@@ -25,8 +25,9 @@ Consider the following list: ``` people = ["Ahmed", "Nasser", "Mohammed"] ```
 - print the list in the following format: Ahmed, Nasser, Mohammed
 - hint: read about join()
 people1 = ["Ahmed", "Nasser", "Mohammed"]
-people3 = people1 + listT
-print(people3)
+
+ver = ","
+print(ver.join(people1))
 
 
 Question 3:

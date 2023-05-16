@@ -1,0 +1,18 @@
+print("Q1")
+list = [1,2,3,4]
+print(list[0:4]) #print from index 1 to 3
+#------------------------------
+print("Q2")
+listpeople = ["Ahmed" , "Nasser", "Mohamed"]
+print(" ".join(listpeople))
+#------------------------------
+print("Q3")
+firstdict = [{ "name": "zaid", "age": "23", "phone": 55555} 
+, { "name": "shaker", "age": "18", "phone": 4444} ,
+ { "name": "mohamed", "age": "30", "phone": 2222}]
+print(firstdict)
+add={"name": "rashid", "age": "40", "phone": 00000}
+firstdict.append(add)
+print(firstdict)
+firstdict[0].pop("name")
+print(firstdict)

@@ -41,7 +41,6 @@ dict1 =	{
   "age": "5",
   "phone_number" : "11221997"}
 dict1["color"] = "gold"
-dict1.pop("name")
 dict1.update({"phone_number": 19972211})
 if "name" in dict1.keys():
   print ("Y")
@@ -53,7 +52,6 @@ dict2 =	{
   "age": "7",
   "phone_number" : "228759"}
 dict2["color"] = "white"
-dict2.pop("name")
 dict2.update({"phone_number": 5578391})
 if "name" in dict2.keys():
   print ("Y")
@@ -65,13 +63,15 @@ dict3 =	{
   "age": "20",
   "phone_number" : "5342935"}
 dict3["color"] = "red"
-dict3.pop("name")
+dict1.pop("name")
 dict3.update({"phone_number": 5492349})
 if "name" in dict3.keys():
   print ("Y")
 else:
   print ("N")
 print(dict3)
+  "phone_number" : "228759"}
+
 
 
 

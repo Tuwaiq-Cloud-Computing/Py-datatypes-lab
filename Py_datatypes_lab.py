@@ -12,7 +12,7 @@ list.sort()
 #     add an element at the start of the list
 list.insert(0, 5)
 #     print the index of the last element
-print(list[-1])
+print(len(list)-1)
 
 
 # Question 2: Consider the following list: people = ["Ahmed", "Nasser", "Mohammed"]

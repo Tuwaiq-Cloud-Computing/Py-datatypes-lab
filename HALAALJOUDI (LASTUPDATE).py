@@ -12,7 +12,7 @@ print(list)
 list.insert(0,"anoud") #to add element in first list
 print(list)
 print(list.index(list[-1])) #to print index of last element
-print(list)
+
 
 #answer2
 people = ["Ahmed", "Nasser", "Mohammed"]

@@ -35,19 +35,42 @@ Question 3:
 - now delete the name from the first dictionary
 - update the phone number of the last person
 - check if a first dictionary has a key called "name" 
-dict =  {
+dict1 =	{
   "name": "shames",
-  "age": "five",
-  "phone_number" : "11221997"
-}
-dict["color"] = "gold"
-dict.pop("name")
-dict.update({"phone_number": 19972211})
-if "name" in dict.keys():
+  "age": "5",
+  "phone_number" : "11221997"}
+dict1["color"] = "gold"
+dict1.pop("name")
+dict1.update({"phone_number": 19972211})
+if "name" in dict1.keys():
+  print ("Y")
+else:
+  print ("N")
+print(dict1)
+dict2 =	{
+  "name": "nem",
+  "age": "7",
+  "phone_number" : "228759"}
+dict2["color"] = "white"
+dict2.pop("name")
+dict2.update({"phone_number": 5578391})
+if "name" in dict2.keys():
   print ("Y")
 else:
   print ("N")
 print(dict)
+dict3 =	{
+  "name": "jed",
+  "age": "20",
+  "phone_number" : "5342935"}
+dict3["color"] = "red"
+dict3.pop("name")
+dict3.update({"phone_number": 5492349})
+if "name" in dict3.keys():
+  print ("Y")
+else:
+  print ("N")
+print(dict3)
 
 
 

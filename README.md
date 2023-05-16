@@ -31,8 +31,8 @@ Consider the following list: ``` people = ["Ahmed", "Nasser", "Mohammed"] ```
 - print the list in the following format: Ahmed, Nasser, Mohammed
 - hint: read about join()
 
-people = ["Ahmed", "Nasser", "Mohsmmed"]
-print (*people, sep=", ")
+people = ["Ahmed", "Nasser", "Mohammed"]
+print (', '.join(people))
 
 Question 3:
 - Make a list of 3 dictionaries, each dictionary should contain information such as: name, phone_number

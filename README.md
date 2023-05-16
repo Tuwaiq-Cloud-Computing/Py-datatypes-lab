@@ -17,6 +17,7 @@ Consider the following list: ``` people = ["Ahmed", "Nasser", "Mohammed"] ```
 - print the list in the following format: Ahmed, Nasser, Mohammed
 - hint: read about join()
 
+
 Question 3:
 - Make a list of 3 dictionaries, each dictionary should contain information such as: name, phone_number
 - now add 1 more dictionary to the list 

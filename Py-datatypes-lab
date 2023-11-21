@@ -1,0 +1,41 @@
+"Question 1:"
+
+list = [1,2,3]
+list.append(4)
+list.remove(2)
+list.reverse()
+list.sort()
+list.insert(0,0)
+print(list[-1])
+
+
+"Question 2:"
+
+people = ["Ahmed", "Nasser", "Mohammed"]
+
+
+   
+print(people[0]+","+people[1]+","+people[2])
+
+
+"Question 3:"
+mylist = [{
+  "name": "Lujain",
+  "phone_number": "0544443332",
+  "job": "Software engineering"
+}, {
+  "name": "lana",
+  "phone_number": "0500003332",
+  "job": "UX/UI"
+}, {
+  "name": "Hamad",
+  "phone_number": "0533343332",
+  "job": "lawyer"
+},]
+mylist.append({"name": "Tala",
+  "phone_number": "0533399992",
+  "job": "HR"})
+
+mylist[0].pop("name")
+mylist[-1].update({"phone_number": "0500000000" })
+print(mylist[0].keys())

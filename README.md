@@ -1,30 +1,48 @@
-# Py-datatypes-lab
-
-## Tasks:
-
-Question 1:
-- Make a list with 3 elements
-- add an element to the end of list
-- remove an element from the list
-- reverse the list
-- sort the list 
-- add an element at the start of the list
-- print the index of the last element
 
 
-Question 2:
-Consider the following list: ``` people = ["Ahmed", "Nasser", "Mohammed"] ```
-- print the list in the following format: Ahmed, Nasser, Mohammed
-- hint: read about join()
+items = ["Ahmad", "Nasser", "Mohammed"]
+print(items)
 
-Question 3:
-- Make a list of 3 dictionaries, each dictionary should contain information such as: name, phone_number
-- now add 1 more dictionary to the list 
-- now delete the name from the first dictionary
-- update the phone number of the last person
-- check if a first dictionary has a key called "name" 
+items.append("Fay")
+print(items)
 
+items.remove("Nasser")
+print(items)
 
-## Submission:
+items.reverse()
+print(items)
 
-- After finishing the task upload your Python script file to the forked repo and then create a pull request.
+items.sort()
+print(items)
+
+items.insert(0, "Shahad")
+print(items)
+
+last_index = len(items) - 1
+print("Index of last element:", last_index)
+print(items)
+
+people = ["Ahmad", "Nasser", "Mohammed"]
+
+formatted_list = ','.join(people)
+print(formatted_list)
+
+people_list = [
+    {"name": "Amal", "phone_number": "0534567890"},
+    {"name": "Huda", "phone_number": "0546543210"},
+    {"name": "Yara", "phone_number": "0538901234"}
+]
+print(people_list)
+
+people_list.append({"name": "Lolo", "phone_number": "0567890123"})
+print(people_list)
+
+del people_list[0]["name"]
+print(people_list)
+
+people_list[-1]["phone_number"] = "0535555555"
+print(people_list)
+
+has_name_key = "name" in people_list[0].keys()
+print("Does the first dictionary have a key called 'name'?", has_name_key)
+
